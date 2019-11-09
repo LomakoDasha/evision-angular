@@ -1,20 +1,60 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(147, 134, 182);
+}
+
+.header__h1 {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 20px;
+  margin: 0 20px;
+}
+
+.routing-wrapper {
+  justify-content: center;
+  margin: 0 20px;
+}
+
+.routing-item {
+    margin: 0 10px;
+    padding: 0 10px;
+    text-decoration: none;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 16px;
+    color: rgb(243, 221, 221);
+}
+
 :host {
   text-align: center;
 }
 
-div {
-  justify-content: center;
-}
-
-a {
-    display: inline-block;
-    margin: 0 10px;
-    padding: 0 10px;
-    text-decoration: none;
-    font-size: 16px;
-}
-
 .active {
-    background-color: lightblue;
     font-weight: bold;
+    color: rgb(141, 64, 156);
+}
+
+.footer {
+  height: 30px;
+  background-color: rgb(36, 33, 48);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: rgb(175, 170, 170);
+}
+
+.footer__h2 {
+  padding-left: 20px;
+  margin: 0 30px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 15px;
+  font-weight: 300;
 }

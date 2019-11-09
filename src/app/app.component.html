@@ -1,19 +1,18 @@
-<header>
-  <h2>Routing Example</h2>
+<header class="header">
+  <h1 class="header__h1">E-Vision</h1>
+  <nav class="routing-wrapper">
+    <a class="routing-item" routerLink="home" routerLinkActive="active">Главная</a>
+    <a class="routing-item" routerLink="about-us" routerLinkActive="active">О нас</a>
+    <a class="routing-item" routerLink="products" routerLinkActive="active">Наши продукты</a>
+    <a class="routing-item" routerLink="vacancy" routerLinkActive="active">Вакансии</a>
+    <a class="routing-item" routerLink="contacts" routerLinkActive="active">Контакты</a>
+  </nav>
 </header>
-
-<div>
-  <a routerLink="home" routerLinkActive="active">Главная</a>
-  <a routerLink="about-us" routerLinkActive="active">О нас</a>
-  <a routerLink="products" routerLinkActive="active">Наши продукты</a>
-  <a routerLink="vacancy" routerLinkActive="active">Вакансии</a>
-  <a routerLink="contacts" routerLinkActive="active">Контакты</a>
-</div>
 
 <main>
   <router-outlet></router-outlet>
 </main>
 
-<footer>
-  <p>Designed by</p>
+<footer class="footer">
+  <p class="footer__h2">© Designed by Lomako Dasha</p>
 </footer>
