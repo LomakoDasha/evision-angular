@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -22,6 +23,7 @@ import { VacancyPart2Component } from './pages/vacancy/vacancy-part2/vacancy-par
 import { VacancyPart3Component } from './pages/vacancy/vacancy-part3/vacancy-part3.component';
 import { ContactsPart1Component } from './pages/contacts/contacts-part1/contacts-part1.component';
 import { ContactsPart2Component } from './pages/contacts/contacts-part2/contacts-part2.component';
+import { HomePart4Component } from './pages/home/home-part4/home-part4.component';
 
 @NgModule({
   declarations: [
@@ -44,11 +46,16 @@ import { ContactsPart2Component } from './pages/contacts/contacts-part2/contacts
     VacancyPart2Component,
     VacancyPart3Component,
     ContactsPart1Component,
-    ContactsPart2Component
+    ContactsPart2Component,
+    HomePart4Component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
+  ],
+  exports: [
+    HomePart1Component
   ],
   providers: [],
   bootstrap: [AppComponent]

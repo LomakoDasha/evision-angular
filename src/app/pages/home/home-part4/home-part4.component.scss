@@ -1,0 +1,26 @@
+.part4-wrapper {
+  height: 300px;
+  background-image: url("/assets/home-footer.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block-wrapper {
+  margin: 1% 5%;
+  padding: 1% 5%;
+  background-color: rgba(134, 135, 182, 0.7);
+}
+
+.block-title {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.block-par {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 16px;
+}
