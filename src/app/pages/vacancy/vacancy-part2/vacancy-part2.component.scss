@@ -21,10 +21,11 @@
 }
 
 .main-info__h3 {
-  margin: 0;
+  margin: 1%;
   font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
   font-size: 22px;
   font-weight: 700;
+  text-align: left;
   color: rgb(23, 100, 62);
 }
 
@@ -37,11 +38,4 @@
 
 .main-info__button {
   float: right;
-  width: 200px;
-  height: 50px;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
-  font-size: 16px;
-  background-color: rgb(206, 171, 74);
-  color: #fff;
-  border: 3px double #fff;
 }
