@@ -1,0 +1,31 @@
+.part3-wrapper {
+  padding: 2% 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #d1d1e4;
+}
+
+.main-info__h3 {
+  margin: 0;
+  font-size: 27px;
+  font-weight: 700;
+  color: rgb(80, 15, 15);
+}
+
+.main-info__p {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 18px;
+}
+
+.main-info__button {
+  float: right;
+  width: 200px;
+  height: 50px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 16px;
+  background-color: rgb(177, 30, 30);
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 20px;
+}
