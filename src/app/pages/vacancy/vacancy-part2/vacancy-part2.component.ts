@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./vacancy-part2.component.scss']
 })
 export class VacancyPart2Component implements OnInit {
+  public title: string = 'Актуальные вакансии';
 
   constructor() { }
 

@@ -1,15 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-home-part2',
   templateUrl: './home-part2.component.html',
   styleUrls: ['./home-part2.component.scss']
 })
-export class HomePart2Component implements OnInit {
+export class HomePart2Component {
+  public title1: string = 'О нас';
+  public title2: string = 'Направления деятельности';
+  public imagePath1: string = '/assets/home-img1.jpg';
+  public imagePath2: string = '/assets/home-img2.jpg';
 
   constructor() { }
-
-  ngOnInit() {
-  }
 
 }

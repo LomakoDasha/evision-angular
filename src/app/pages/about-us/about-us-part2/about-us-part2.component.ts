@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about-us-part2.component.scss']
 })
 export class AboutUsPart2Component implements OnInit {
+  public title: string = 'E-Vision в мире';
 
   constructor() { }
 

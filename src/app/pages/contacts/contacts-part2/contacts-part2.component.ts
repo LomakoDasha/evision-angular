@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contacts-part2.component.scss']
 })
 export class ContactsPart2Component implements OnInit {
+  public title: string = 'Пожалуйста, заполните форму, мы свяжемся с вами в ближайшее время';
+  public imagePathMap: string = '/assets/contacts-map.jpg';
 
   constructor() { }
 
