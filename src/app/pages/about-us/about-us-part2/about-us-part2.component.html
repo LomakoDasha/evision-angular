@@ -1,17 +1,9 @@
 <div class="part2-wrapper">
   <h2 class="part2__title">{{ title }}</h2>
   <div class="main-info">
-    <div class="main-info__wrapper">
-      <h3 class="main-info__h3 blue">18</h3>
-      <p class="main-info__p">Стран</p>
-    </div>
-    <div class="main-info__wrapper">
-      <h3 class="main-info__h3 green">15 200+</h3>
-      <p class="main-info__p">IT-специалистов</p>
-    </div>
-    <div class="main-info__wrapper">
-      <h3 class="main-info__h3 yellow">1 500+</h3>
-      <p class="main-info__p">Выполненных проектов</p>
+    <div *ngFor="let item of arrayOfItems" class="main-info__wrapper">
+      <h3 class="main-info__h3">{{ item.digit }}</h3>
+      <p class="main-info__p">{{ item.info }}</p>
     </div>
   </div>
 </div>

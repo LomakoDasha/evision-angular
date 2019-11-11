@@ -12,10 +12,8 @@
   <div class="part2__activity">
     <div class="part2__div">
       <h3 class="part2__div__title">{{ title2 }}</h3>
-      <ul>
-        <li class="part2__list-item">Прикладные программы</li>
-        <li class="part2__list-item">Прикладное программное обеспечение</li>
-        <li class="part2__list-item">Разработка программного обеспечения на заказ</li>
+      <ul *ngFor="let listItem of listItems">
+        <li class="part2__list-item">{{ listItem }}</li>
       </ul>
     </div>
     <img class="part2__img" [src]="imagePath2" alt="part2__img">

@@ -7,10 +7,29 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomePart3Component implements OnInit {
   public title: string = 'Кто мы ?';
-  public imagePathPerson1: string = '/assets/person1.jpg';
-  public imagePathPerson2: string = '/assets/person2.jpg';
-  public imagePathPerson3: string = '/assets/person3.jpg';
-  public imagePathPerson4: string = '/assets/person4.jpg';
+
+  public workers = [
+    {
+      id: 1,
+      img: '/assets/person1.jpg',
+      vacancy: 'Разработчики'
+    },
+    {
+      id: 2,
+      img: '/assets/person2.jpg',
+      vacancy: 'Тестировщики'
+    },
+    {
+      id: 3,
+      img: '/assets/person3.jpg',
+      vacancy: 'Дизайнеры'
+    },
+    {
+      id: 4,
+      img: '/assets/person4.jpg',
+      vacancy: 'Аналитики'
+    }
+  ];
 
   constructor() { }
 

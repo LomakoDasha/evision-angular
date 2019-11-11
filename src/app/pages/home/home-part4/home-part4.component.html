@@ -9,4 +9,9 @@
     <p class="block-par">Беларусь, Минск</p>
     <p class="block-par">Монтажников, 140</p>
   </div>
+  <div class="block-wrapper" [ngSwitch]="currentEmotion">
+    <p *ngSwitchCase="emotion.Confused" class="block-par">I'm confused</p>
+    <p *ngSwitchCase="emotion.Sad" class="block-par">I'm sad</p>
+    <p *ngSwitchCase="emotion.Happy" class="block-par">I'm happy!</p>
+  </div>
 </div>

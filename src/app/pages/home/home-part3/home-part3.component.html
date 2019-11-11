@@ -3,21 +3,9 @@
   <p class="part3-paragraph">МЫ - большая команда, объединяющая консультантов, дизайнеров, разработчиков, аналитиков, тестировщиков по всему миру.
     Используя свой опыт и знания, мы создаем инновационные технологии и помогаем нашим клиентам решать глобальные бизнес-задачи.</p>
   <div class="workers">
-    <div class="img-wrapper">
-      <img class="part3-img" [src]="imagePathPerson1" alt="img1">
-      <h3>Разработчики</h3>
-    </div>
-    <div class="img-wrapper">
-      <img class="part3-img" [src]="imagePathPerson2" alt="img2">
-      <h3>Тестировщики</h3>
-    </div>
-    <div class="img-wrapper">
-      <img class="part3-img" [src]="imagePathPerson3" alt="img3">
-      <h3>Дизайнеры</h3>
-    </div>
-    <div class="img-wrapper">
-      <img class="part3-img" [src]="imagePathPerson4" alt="img4">
-      <h3>Аналитики</h3>
+    <div *ngFor="let worker of workers" class="img-wrapper">
+      <img class="part3-img" src="{{ worker.img }}" alt="img1">
+      <h3>{{ worker.vacancy }}</h3>
     </div>
   </div>
 </div>
