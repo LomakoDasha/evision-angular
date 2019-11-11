@@ -1,6 +1,6 @@
 <div class="part2-wrapper">
   <div *ngFor="let item of arrayOfItems" class="part2__product">
-    <img class="part2__img" src="{{ item.img }}" alt="{{ item.product }}">
+    <img class="part2__img" [src]="item.img" [alt]="item.product">
     <div class="part2__div">
       <h3 class="part2__div__title">{{ item.product }}</h3>
       <p class="part2__div__paragraph">{{ item.description }}</p>

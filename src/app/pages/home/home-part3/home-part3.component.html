@@ -2,9 +2,9 @@
   <h2 class="part3-title">{{ title }}</h2>
   <p class="part3-paragraph">МЫ - большая команда, объединяющая консультантов, дизайнеров, разработчиков, аналитиков, тестировщиков по всему миру.
     Используя свой опыт и знания, мы создаем инновационные технологии и помогаем нашим клиентам решать глобальные бизнес-задачи.</p>
-  <div class="workers">
+  <div [ngClass]="{workers: true}">
     <div *ngFor="let worker of workers" class="img-wrapper">
-      <img class="part3-img" src="{{ worker.img }}" alt="img1">
+      <img class="part3-img" [src]="worker.img" alt="img1">
       <h3>{{ worker.vacancy }}</h3>
     </div>
   </div>

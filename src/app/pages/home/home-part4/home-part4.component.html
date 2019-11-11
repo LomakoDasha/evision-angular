@@ -1,17 +1,18 @@
 <div class="part4-wrapper">
-  <div class="block-wrapper">
+  <div class="block-wrapper" appHighlightOnHover>
     <h3 class="block-title">График работы</h3>
     <p class="block-par"> Пн - Пт:</p>
     <p class="block-par"> 9:00 - 20:00</p>
   </div>
-  <div class="block-wrapper">
+  <div class="block-wrapper" appHighlightOnHover>
     <h3 class="block-title">Где мы находимся</h3>
     <p class="block-par">Беларусь, Минск</p>
     <p class="block-par">Монтажников, 140</p>
   </div>
   <div class="block-wrapper" [ngSwitch]="currentEmotion">
-    <p *ngSwitchCase="emotion.Confused" class="block-par">I'm confused</p>
-    <p *ngSwitchCase="emotion.Sad" class="block-par">I'm sad</p>
-    <p *ngSwitchCase="emotion.Happy" class="block-par">I'm happy!</p>
+    <p *ngSwitchCase="emotion.Confused" [ngStyle]="{ 'background-color': 'white', 'color': 'orange' }">I'm confused</p>
+    <p *ngSwitchCase="emotion.Sad" [ngStyle]="{ 'background-color': 'white', 'color': 'orange' }">I'm sad</p>
+    <p *ngSwitchCase="emotion.Happy" [ngStyle]="{ 'background-color': 'white', 'color': 'orange' }">I'm happy!</p>
+    <p *ngSwitchDefault [ngStyle]="{ 'background-color': 'white', 'color': 'orange' }">Unknown</p>
   </div>
 </div>

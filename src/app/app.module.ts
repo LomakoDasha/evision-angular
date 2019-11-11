@@ -24,6 +24,7 @@ import { VacancyPart2Component } from './pages/vacancy/vacancy-part2/vacancy-par
 import { VacancyPart3Component } from './pages/vacancy/vacancy-part3/vacancy-part3.component';
 import { ContactsPart1Component } from './pages/contacts/contacts-part1/contacts-part1.component';
 import { ContactsPart2Component } from './pages/contacts/contacts-part2/contacts-part2.component';
+import { HighlightOnHoverDirective } from './directives/highlight-on-hover.directive';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { ContactsPart2Component } from './pages/contacts/contacts-part2/contacts
     VacancyPart2Component,
     VacancyPart3Component,
     ContactsPart1Component,
-    ContactsPart2Component
+    ContactsPart2Component,
+    HighlightOnHoverDirective
   ],
   imports: [
     BrowserModule,
