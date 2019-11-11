@@ -7,7 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomePart3Component implements OnInit {
   public title: string = 'Кто мы ?';
-
   public workers = [
     {
       id: 1,

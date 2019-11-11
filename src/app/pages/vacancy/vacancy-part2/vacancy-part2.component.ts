@@ -7,7 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VacancyPart2Component implements OnInit {
   public title: string = 'Актуальные вакансии';
-  public arrayOfItems = ['Аналитик', 'Графический дизайнер', 'Database developer', 'Java Developer'];
+  public arrayOfItems = [
+    'Аналитик',
+    'Графический дизайнер',
+    'Database developer',
+    'Java Developer'
+  ];
 
   constructor() { }
 

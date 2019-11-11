@@ -1,38 +1,9 @@
 <div class="part2-wrapper">
-  <div class="products-list">
-    <div class="part2__product">
-      <img class="part2__img" [src]="imagePathProduct1" alt="product1">
-      <div class="part2__div">
-        <h3 class="part2__div__title">Сбор отходов</h3>
-        <p class="part2__div__paragraph">Система сбора отходов, которая позволяет управлять, повторно использовать различные виды твердых
-          отходов: промышленные, коммерческие и бытовые отходы.</p>
-      </div>
-    </div>
-    <div class="part2__product">
-      <img class="part2__img" [src]="imagePathProduct2" alt="product2">
-      <div class="part2__div">
-        <h3 class="part2__div__title">E-Learning</h3>
-        <p class="part2__div__paragraph">Система, выполненая в виде процесса презентаций, созданного  с помощью использования презентаций
-          Microsoft PowerPoint на интерактивном веб-сайте, что позволяет с легкостью отображать учебный материал на планшетах или мобильных
-          устройствах при помощи браузера.</p>
-      </div>
-    </div>
-  </div>
-  <div class="products-list">
-    <div class="part2__product">
-      <img class="part2__img" [src]="imagePathProduct3" alt="product3">
-      <div class="part2__div">
-        <h3 class="part2__div__title">RFID</h3>
-        <p class="part2__div__paragraph">Одна из основных технологий, которая использует SmartTech. При помощи этой технологиии возможно автоматически
-          идентифицировать и отслеживать приклепленные к ней объекты.</p>
-      </div>
-    </div>
-    <div class="part2__product">
-      <img class="part2__img" [src]="imagePathProduct4" alt="product4">
-      <div class="part2__div">
-        <h3 class="part2__div__title">Card Issuing System</h3>
-        <p class="part2__div__paragraph">Система для проектирования пластиковой карты, позволяющая с лекгостью создавать карты в соответствии с потребностями пользователей.</p>
-      </div>
+  <div *ngFor="let item of arrayOfItems" class="part2__product">
+    <img class="part2__img" src="{{ item.img }}" alt="{{ item.product }}">
+    <div class="part2__div">
+      <h3 class="part2__div__title">{{ item.product }}</h3>
+      <p class="part2__div__paragraph">{{ item.description }}</p>
     </div>
   </div>
 </div>

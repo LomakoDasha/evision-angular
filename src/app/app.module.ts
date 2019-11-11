@@ -16,6 +16,7 @@ import { AboutUsPart4Component } from './pages/about-us/about-us-part4/about-us-
 import { HomePart1Component } from './pages/home/home-part1/home-part1.component';
 import { HomePart2Component } from './pages/home/home-part2/home-part2.component';
 import { HomePart3Component } from './pages/home/home-part3/home-part3.component';
+import { HomePart4Component } from './pages/home/home-part4/home-part4.component';
 import { ProductsPart1Component } from './pages/products/products-part1/products-part1.component';
 import { ProductsPart2Component } from './pages/products/products-part2/products-part2.component';
 import { VacancyPart1Component } from './pages/vacancy/vacancy-part1/vacancy-part1.component';
@@ -23,7 +24,6 @@ import { VacancyPart2Component } from './pages/vacancy/vacancy-part2/vacancy-par
 import { VacancyPart3Component } from './pages/vacancy/vacancy-part3/vacancy-part3.component';
 import { ContactsPart1Component } from './pages/contacts/contacts-part1/contacts-part1.component';
 import { ContactsPart2Component } from './pages/contacts/contacts-part2/contacts-part2.component';
-import { HomePart4Component } from './pages/home/home-part4/home-part4.component';
 
 @NgModule({
   declarations: [
@@ -40,14 +40,14 @@ import { HomePart4Component } from './pages/home/home-part4/home-part4.component
     HomePart1Component,
     HomePart2Component,
     HomePart3Component,
+    HomePart4Component,
     ProductsPart1Component,
     ProductsPart2Component,
     VacancyPart1Component,
     VacancyPart2Component,
     VacancyPart3Component,
     ContactsPart1Component,
-    ContactsPart2Component,
-    HomePart4Component
+    ContactsPart2Component
   ],
   imports: [
     BrowserModule,
