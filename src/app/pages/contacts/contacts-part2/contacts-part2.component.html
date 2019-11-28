@@ -17,5 +17,7 @@
       <button type="submit" class="btn btn-primary">ОТПРАВИТЬ</button>
     </form>
   </div>
-  <img class="part2-map" [src]="imagePathMap" alt="map">
+  <agm-map [latitude]="latitude" [longitude]="longitude">
+    <agm-marker [latitude]="latitude" [longitude]="longitude"></agm-marker>
+  </agm-map>
 </div>

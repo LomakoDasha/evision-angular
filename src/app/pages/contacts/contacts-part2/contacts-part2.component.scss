@@ -26,12 +26,6 @@ $font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
     }
 }
 
-.part2-map {
-  margin: 1%;
-  width: 500px;
-  height: 600px;
-}
-
 .label {
   display: flex;
   justify-content: flex-start;
@@ -40,4 +34,10 @@ $font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
       family: $font-family;
       size: 16px;
     }
+}
+
+agm-map {
+  margin: 1%;
+  width: 500px;
+  height: 600px;
 }
