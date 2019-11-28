@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutUsPart3Component implements OnInit {
   public title: string = 'О нас';
-  public imagePathPeople: string = '/assets/about-us-img.jpg';
+  public imagePathPeople: string = './assets/about-us-img.jpg';
 
   constructor() { }
 
