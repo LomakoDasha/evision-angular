@@ -1,3 +1,5 @@
+$font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+
 .part2-wrapper {
   padding: 2% 10%;
   min-height: 70vh;
@@ -9,10 +11,10 @@
 
 .part2__product {
   padding: 2%;
+  width: 50%;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 50%;
 }
 
 .part2__img {
@@ -28,15 +30,21 @@
 }
 
 .part2__div__title {
-  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
-  font-size: 22px;
-  font-weight: 700;
   color: rgb(80, 15, 15);
+
+    font: {
+      family: $font-family;
+      size: 22px;
+      weight: 700;
+    }
 }
 
 .part2__div__paragraph {
   padding: 2%;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
-  font-size: 15px;
   text-align: left;
+
+    font: {
+      family: $font-family;
+      size: 15px;
+    }
 }

@@ -1,12 +1,16 @@
+$font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+
 .part2-wrapper {
   padding: 2%;
   background-color: rgb(229, 229, 243);
 }
 
 .part2__title {
-  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
-  font-size: 25px;
-  font-weight: 700;
+  font: {
+    family: $font-family;
+    size: 25px;
+    weight: 700;
+  }
 }
 
 .main-info {
@@ -18,19 +22,25 @@
 .main-info__wrapper {
   margin: 1% 5%;
   width: 15%;
-}
 
-.main-info__h3 {
-  margin: 1%;
-  padding-bottom: 10%;
-  border-bottom: 2px solid rgb(87, 78, 95);
-  font-size: 40px;
-  font-weight: 700;
-  color: rgb(29, 141, 25);
-}
+    h3 {
+      margin: 1%;
+      padding-bottom: 10%;
+      color: rgb(29, 141, 25);
+      border-bottom: 2px solid rgb(87, 78, 95);
 
-.main-info__p {
-  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
-  font-size: 16px;
-  font-weight: 500;
+        font: {
+          family: $font-family;
+          size: 40px;
+          weight: 700;
+        }
+    }
+
+    p {
+      font: {
+        family: $font-family;
+        size: 16px;
+        weight: 700;
+      }
+    }
 }

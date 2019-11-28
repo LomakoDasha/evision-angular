@@ -8,8 +8,8 @@ import { Component } from '@angular/core';
 export class HomePart2Component {
   public title1: string = 'О нас';
   public title2: string = 'Направления деятельности';
-  public imagePath1: string = '/assets/home-img1.jpg';
-  public imagePath2: string = '/assets/home-img2.jpg';
+  public imagePath1: string = './assets/home-img1.jpg';
+  public imagePath2: string = './assets/home-img2.jpg';
   public listItems = [
     'Прикладные программы',
     'Прикладное программное обеспечение',

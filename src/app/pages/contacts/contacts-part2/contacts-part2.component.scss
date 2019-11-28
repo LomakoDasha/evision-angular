@@ -1,3 +1,5 @@
+$font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+
 .part2-wrapper {
   padding: 5%;
   display: flex;
@@ -15,10 +17,13 @@
 .main-info__h3 {
   margin: 0;
   margin-bottom: 3%;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
-  font-size: 22px;
-  font-weight: 700;
   color: rgb(31, 19, 97);
+
+    font: {
+      family: $font-family;
+      size: 22px;
+      weight: 700;
+    }
 }
 
 .part2-map {
@@ -28,8 +33,11 @@
 }
 
 .label {
-  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
-  font-size: 16px;
   display: flex;
   justify-content: flex-start;
+
+    font: {
+      family: $font-family;
+      size: 16px;
+    }
 }

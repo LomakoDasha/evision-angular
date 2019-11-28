@@ -9,10 +9,4 @@
     <p class="block-par">Беларусь, Минск</p>
     <p class="block-par">Монтажников, 140</p>
   </div>
-  <div class="block-wrapper" [ngSwitch]="currentEmotion">
-    <p *ngSwitchCase="emotion.Confused" [ngStyle]="{ 'background-color': 'white', 'color': 'orange' }">I'm confused</p>
-    <p *ngSwitchCase="emotion.Sad" [ngStyle]="{ 'background-color': 'white', 'color': 'orange' }">I'm sad</p>
-    <p *ngSwitchCase="emotion.Happy" [ngStyle]="{ 'background-color': 'white', 'color': 'orange' }">I'm happy!</p>
-    <p *ngSwitchDefault [ngStyle]="{ 'background-color': 'white', 'color': 'orange' }">Unknown</p>
-  </div>
 </div>

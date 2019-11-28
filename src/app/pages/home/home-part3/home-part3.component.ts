@@ -10,22 +10,22 @@ export class HomePart3Component implements OnInit {
   public workers = [
     {
       id: 1,
-      img: '/assets/person1.jpg',
+      img: './assets/person1.jpg',
       vacancy: 'Разработчики'
     },
     {
       id: 2,
-      img: '/assets/person2.jpg',
+      img: './assets/person2.jpg',
       vacancy: 'Тестировщики'
     },
     {
       id: 3,
-      img: '/assets/person3.jpg',
+      img: './assets/person3.jpg',
       vacancy: 'Дизайнеры'
     },
     {
       id: 4,
-      img: '/assets/person4.jpg',
+      img: './assets/person4.jpg',
       vacancy: 'Аналитики'
     }
   ];

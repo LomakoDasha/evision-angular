@@ -1,3 +1,5 @@
+$font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+
 .part3-wrapper {
   padding: 2% 20%;
   background-color: rgb(189, 208, 218);
@@ -5,15 +7,19 @@
 
 .part3-title {
   text-transform: uppercase;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
-  font-size: 20px;
-  font-weight: 700;
   color: rgb(44, 18, 87);
+    font: {
+      family: $font-family;
+      size: 20px;
+      weight: 700;
+    }
 }
 
 .part3-paragraph {
-  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
-  font-size: 16px;
+  font: {
+    family: $font-family;
+    size: 16px;
+  }
 }
 
 .part3-img {
