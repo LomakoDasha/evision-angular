@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactsPart1Component implements OnInit {
   public title: string = 'Свяжитесь с нами !';
+  public imagePath: string = './assets/contacts.jpg';
 
   constructor() { }
 

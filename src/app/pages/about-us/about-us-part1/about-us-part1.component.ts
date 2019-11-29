@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about-us-part1.component.scss']
 })
 export class AboutUsPart1Component implements OnInit {
+  public imagePath: string = './assets/about-us.jpg';
 
   constructor() { }
 

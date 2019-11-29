@@ -5,12 +5,7 @@ $font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
   display: flex;
   justify-content: center;
   align-items: center;
-
-    background: {
-      image: url("/assets/home-footer.jpg");
-      size: 100%;
-      repeat: no-repeat;
-    }
+  background: linear-gradient(90deg, rgb(125, 116, 136) 0%, rgb(189, 208, 218) 30%, rgb(125, 116, 136) 100%);
 }
 
 .block-wrapper {

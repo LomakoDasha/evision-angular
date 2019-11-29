@@ -2,17 +2,19 @@ $font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
 
 .image-wrapper {
   height: 300px;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-    background: {
-      image: url('/assets/home.jpg');
-      size: 100%;
-      repeat: no-repeat;
-    }
+  overflow: hidden;
+}
+
+.background-img {
+  width: 100%;
 }
 
 .image-wrapper__title {
+  position: absolute;
   margin: 0;
   letter-spacing: 2px;
   color: rgb(211, 205, 212);

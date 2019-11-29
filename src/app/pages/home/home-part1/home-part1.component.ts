@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HomePart1Component {
   public title: string = 'Создаем будущее сегодня';
+  public imagePath: string = './assets/home.jpg';
 
   constructor() { }
 
