@@ -1,5 +1,12 @@
 # EvisionAngular
 
+[link to the app](https://lomakodasha.github.io/evision-angular/)
+
+### UI Example:
+![evision](https://user-images.githubusercontent.com/42466442/69882117-32a6fc00-12e0-11ea-9c07-c6c737fe1780.png)
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.18.
 
 ## Development server
